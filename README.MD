@@ -4,4 +4,7 @@ This module is devoloped for joinDevOps company. Projects inside joinDevOps foll
 ## Inputs
 * Project (required)         - Users should specify their project name
 * environment (required)     - Users should specidy their enviroment
-* cidr_block (optional)      - Users can provide their CIDR block. Default is 10.0.0.0/16 
+* cidr_block (optional)      - Users can provide their CIDR block. Default is 10.0.0.0/16
+
+## Outputs
+* vpc_id    - Exports VPC ID created
